@@ -2,6 +2,7 @@ import React from "react";
 import ReactDOM from "react-dom/client";
 import { RouterProvider, createBrowserRouter } from "react-router-dom";
 
+import './scss/global.scss';
 import { About, Clubs, Events, Sponsors } from "./pages/index.ts";
 import App from "./App.tsx";
 
